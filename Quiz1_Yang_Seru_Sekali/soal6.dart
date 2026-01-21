@@ -20,7 +20,8 @@ class Account {
 void main() {
   Account account = Account();
 
-  account.deposit(1000);
-  account.withdraw(500);
-  account.withdraw(600);
+  account.deposit(2000);
+  account.withdraw(400);
+  account.withdraw(1000);
+  account.deposit(600);
 }
