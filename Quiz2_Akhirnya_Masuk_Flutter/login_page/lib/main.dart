@@ -132,7 +132,10 @@ class _FormExampleState extends State<FormExample> {
                   onPressed: () {
                     if (_formKey.currentState!.validate()) {}
                   },
-                  child: const Text('Submit'),
+                  child: const Text(
+                    'Login',
+                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+                  ),
                 ),
               ),
             ),
