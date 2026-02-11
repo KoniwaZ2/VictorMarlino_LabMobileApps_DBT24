@@ -24,9 +24,13 @@ class HomeScreen extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   const Icon(Icons.add, color: Colors.white, size: 32),
-                  Image.network(
-                    'https://e7.pngegg.com/pngimages/712/1009/png-clipart-letter-instagram-font-instagram-text-logo.png',
-                    height: 35,
+                  const Text(
+                    'Instagram',
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 24,
+                      fontWeight: FontWeight.bold,
+                    ),
                   ),
                   const Icon(
                     Icons.favorite_border,
