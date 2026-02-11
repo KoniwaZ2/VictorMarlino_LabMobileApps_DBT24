@@ -116,9 +116,9 @@ class DMScreen extends StatelessWidget {
                   // Simulate some unread messages and timestamps
                   final bool hasUnread = index == 0 || index == 5;
                   String timeAgo = '';
-                  if (index == 0)
+                  if (index == 0) {
                     timeAgo = '2h';
-                  else if (index == 1)
+                  } else if (index == 1)
                     timeAgo = '1d';
                   else if (index == 2)
                     timeAgo = '';
